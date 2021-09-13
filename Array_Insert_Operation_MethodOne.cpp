@@ -7,12 +7,12 @@
 using namespace std;
 int main()
 {
-	/*int A[3];
+	int A[3];
 	A[0] = 5;
 	A[1] = 55;
 	A[2] = 56;
 	A[3] = 58;
-	cout<<A[0];*/
+	cout<<A[0];
 	
 	//Method two using For Loop and taking user input
 	int B[3];
