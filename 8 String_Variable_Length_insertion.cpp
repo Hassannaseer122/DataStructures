@@ -5,11 +5,13 @@ For more detail understanding of Data Structures please follow the playlist
 of Data Structures on www.YouTube.com/SoftwareEngineering
 */
 #include<iostream>
+#include<string>
 using namespace std;
 int main()
 {
-	char name[100];
-	cout<<"Enter a name";
-	cin>>name;
-	cout<<"Your Name is "<<name;
+	//Variable length
+	string name;
+	cout<<"Enter Your name";
+	getline(cin,name);
+	cout<<"Your name is "<<name;
 }
